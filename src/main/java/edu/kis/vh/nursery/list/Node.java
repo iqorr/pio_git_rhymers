@@ -30,7 +30,4 @@ public class Node {
         this.next = next;
     }
 
-    public void setValue(int value) {
-        this.value = value;
-    }
 }

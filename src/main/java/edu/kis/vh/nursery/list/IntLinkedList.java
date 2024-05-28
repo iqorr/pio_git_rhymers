@@ -4,8 +4,8 @@ public class IntLinkedList {
 
     private static final int EMPTY = -1;
 
-    Node last;
-    int i;
+    private Node last;
+    private int i;
 
     public void push(int i) {
         if (last == null)

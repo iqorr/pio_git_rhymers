@@ -64,6 +64,6 @@ public class IntLinkedListTest {
 
         Assert.assertEquals(secondValue, list.pop());
         Assert.assertEquals(firstValue, list.pop());
-        Assert.assertEquals(EMPTY, list.pop()); 
+        Assert.assertEquals(EMPTY, list.pop());
     }
 }

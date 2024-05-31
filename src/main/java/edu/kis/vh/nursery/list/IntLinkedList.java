@@ -9,7 +9,8 @@ public class IntLinkedList {
     private static final int EMPTY = -1; // Constant representing that the list or stack is empty.
 
     private Node last; // The last node in the linked list.
-    private int i;
+    private int i; // TODO: This variable 'i' seems unused and should be removed if it is not necessary.
+
 
     /**
      * Adds a new integer to the end of the list.
@@ -43,7 +44,7 @@ public class IntLinkedList {
      * @return always returns false, indicating the list is never full.
      */
     public boolean isFull() {
-        return false;
+        return false; // TODO: Review if having an isFull method is necessary as it always returns false.
     }
 
     /**
